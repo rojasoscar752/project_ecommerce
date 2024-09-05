@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project_e_commerce/pages/balance_page.dart';
+import 'package:project_e_commerce/pages/principal_page.dart';
 import 'package:project_e_commerce/widgets/home_page/custom_navigation_bar.dart';
 
 class HomePage extends StatelessWidget {
@@ -22,8 +22,8 @@ class _HomePage extends StatelessWidget {
     const currentIndex = 0;
     switch (currentIndex) {
       case 0:
-      return const BalancePage();
+      return const PrincipalPage();
     }
-    return const BalancePage();
+    return const PrincipalPage();
   }
 }
